@@ -1,0 +1,26 @@
+<script type="text/javascript">
+
+    function triangle(){
+
+        var a = parseInt(prompt("Enter the value of A : "));
+        var b = parseInt(prompt("Enter the value of B : "));
+        var c = parseInt(prompt("Enter the value of C : "));
+
+        if(a + b + c == 180){
+            return 1;
+        }
+        else{
+            return 2;
+        }
+    }
+
+   
+    var ans = triangle();
+    if(ans == 1){
+        console.log("Triangle is valid.");
+    }
+    else{
+        console.log("Triangle is not valid.");
+    }
+
+</script>
